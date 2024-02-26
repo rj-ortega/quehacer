@@ -13,8 +13,6 @@ const FILTER_MAP = {
   Completed: (task: Task) => task.completed,
 };
 
-// type FilterMapKeys = keyof typeof FILTER_MAP;
-
 const FILTER_NAMES = Object.keys(FILTER_MAP);
 
 const App = (props: Props) => {
